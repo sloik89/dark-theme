@@ -5,10 +5,40 @@
   margin: 0;
   box-sizing: border-box;
 }
+:root {
+  --clr-bcg: #fff;
+  --clr-font: #282c35;
+  --clr-primary: #d23669;
+}
 ul {
   list-style: none;
 }
 a {
   text-decoration: none;
   color: black;
+}
+.btn {
+  background-color: var(--clr-primary);
+  color: white;
+  font-size: 1.2rem;
+  border: none;
+  padding: 0.3rem 0.5rem;
+  border-radius: 5px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+main {
+  width: 95%;
+  margin: 0 auto;
+}
+.nav-center {
+  display: flex;
+  justify-content: space-between;
+  margin: 5rem;
+}
+h1 {
+  font-size: 2rem;
+  letter-spacing: 2px;
+  text-transform: capitalize;
 }

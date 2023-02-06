@@ -5,7 +5,13 @@
   margin: 0;
   box-sizing: border-box;
 }
-:root {
+
+.dark-theme {
+  --clr-bcg: #282c35;
+  --clr-font: #fff;
+  --clr-primary: #d57494;
+}
+.light-theme {
   --clr-bcg: #fff;
   --clr-font: #282c35;
   --clr-primary: #d23669;
@@ -28,6 +34,10 @@ a {
   letter-spacing: 2px;
   cursor: pointer;
 }
+body {
+  background-color: var(--clr-bcg);
+  color: var(--clr-font);
+}
 main {
   width: 95%;
   margin: 0 auto;
@@ -35,7 +45,7 @@ main {
 .nav-center {
   display: flex;
   justify-content: space-between;
-  margin: 5rem;
+  margin: 5rem 0;
 }
 h1 {
   font-size: 2rem;

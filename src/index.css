@@ -42,3 +42,22 @@ h1 {
   letter-spacing: 2px;
   text-transform: capitalize;
 }
+.articles {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.post h2 {
+  font-size: 2rem;
+  text-transform: capitalize;
+  color: var(--clr-primary);
+  margin-bottom: 0.5rem;
+}
+.post p {
+  margin-top: 1rem;
+}
+.post-info {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
